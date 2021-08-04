@@ -17,5 +17,5 @@ php bin/magento cache:clean
 - To manage subscribers. Go to admin > ImageClean > Clean Unuse Images
 - Support console command:
 ```
-php bin/mageno lof:imageclean:clean
+php bin/magento lof:imageclean:clean
 ```
