@@ -1,0 +1,34 @@
+{
+    "name": "landofcoder/module-image-clean",
+    "description": "Magento 2 clean unused product images",
+    "require": {
+        "landofcoder/module-all": "1.*"
+    },
+    "type": "magento2-module",
+    "version": "1.1.1",
+    "license": [
+        "proprietary"
+    ],
+    "keywords": [
+        "landofcoder",
+        "landofcoder clean images",
+        "clean unused images",
+        "landofcoder clean unuse images magento 2 extension"
+    ],
+    "authors": [
+        {
+            "name": "Landofcoder",
+            "email": "landofcoder@gmail.com",
+            "role": "Magento 2 Lof Auction Extension",
+            "homepage": "https://landofcoder.com"
+        }
+    ],
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Lof\\ImageClean\\": ""
+        }
+    }
+}
